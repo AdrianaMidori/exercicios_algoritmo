@@ -1,0 +1,11 @@
+# entrada
+    # x = input("Informe um número inteiro: ")
+    # numero_1 = int(x)
+numero_1 = int(input("Informe um número inteiro: "))
+numero_2 = int(input("Informe um número inteiro: "))
+
+# processamento
+soma = numero_1 + numero_2
+
+#saida
+print(f"A soma dos 2 números informados é :", soma)

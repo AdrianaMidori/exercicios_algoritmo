@@ -27,13 +27,14 @@ for i in range(1, numero_praias + 1):
        print('Praias com acesso asfaltado e menos 1000 veranistas')
        print("-"*54)
        print(f'Praia: {nome_praia}  Distancia do centro: {distancia_centro}  ')   
-    resposta = input("Deseja informar outra praia (S-Sim / N-Não): ") 
-    if resposta == 'N':
-       continua == False  
+    #resposta = input("Deseja informar outra praia (S-Sim / N-Não): ") 
+    #if resposta == 'N' or resposta == 'n':
+    #   continua = False  
+    #   break
 
 #calcular qtd media de veranistas das praias não asfaltadas
 if qtd_praias_nao_asfaltadas > 0:       
-   media_veranistas_pna = qtd_veraniastas_pna / qtd_praias_nao_asfaltadas
+   media_veranistas_pna = qtd_veranistas_pna / qtd_praias_nao_asfaltadas
 else:
    media_veranistas_pna = 0
 

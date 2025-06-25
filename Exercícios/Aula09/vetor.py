@@ -7,7 +7,7 @@ frutas = ['banana', 'maçã', 'pera']
 
 #Adicionando valores
 vetor.append("Paulo")
-frutas.append("Mamão")
+frutas.append("mamão")
 frutas.append(nome)
 frutas.append(45)
 frutas.append(4.70)
@@ -15,6 +15,9 @@ frutas.insert(1,"açai")
 
 print(vetor)
 print(frutas)
+
+#Imprimir a segunda posição
+print (frutas[1])
 
 fruta = input("Informe o nome de uma fruta: ")
 frutas.append(fruta)
@@ -30,7 +33,7 @@ frutas.pop()
 #Remove pela posição
 frutas.pop(0)
 
-#O python vai tentar fazer uma operação, utiliznado essa função não vai dar erro, vai para o except
+#O python vai tentar fazer uma operação, utilizando essa função não vai dar erro, vai para o except
 try:
     frutas.remove("João") #Não existe o valor "João"
 except:
